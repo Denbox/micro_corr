@@ -39,6 +39,8 @@ def play(user, password):
             raise ValueError(f'Something went wrong during login...\n\nRaw HTML:\n{response.content}')
 
         print(select_level(s))
+        # if selecting tutorial level, make sure to skip tutorial!
+        # look for an a tag with 
 
 if __name__ == '__main__':
     if (len(sys.argv) != 3):
