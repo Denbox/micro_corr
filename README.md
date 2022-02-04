@@ -35,7 +35,7 @@ So let's start by investigating the site.
 
 ### Website Interop
 ---
-#### Scripting the Website?
+#### Scripting the Site
 First, we have to see whether this is even possible. Try opening up Micro Corruption in a browser, and navigate the site while watching the network tab. (on Chrome: right click site and select inspect. Then click "Network" in the tabs along the top.)
 
 Inside of a challenge, you'll notice that there are plenty of GET and POST requests called things like "whoami", "get\_manual", "load", "snapshot?x=...", "is\_alive", etc.
