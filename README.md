@@ -25,7 +25,7 @@ As a mathematician, I want to make sure the frustrating details are interesting,
 3. To build a disassembler and debugger to analyze programs statically and dynamically, and leave space to add in and develop my own tools
 4. Interop with microcorruption's web site to be able to play without my browser
 
-I decided to share my progress because I think many of these topics are of interest to technical people, but lots of hacking essays / projects seem like magic. I can't say for sure that this writeup will be *easy* to follow, but I do hope it pulls back the veil on some of this stuff, and that I can learn how to do it myself!
+I decided to share my progress because I think many of these topics are of interest to technical people, but lots of hacking essays / projects seem like magic. I can't say for sure that this writeup will be *easy* to follow, but I do hope it pulls back the veil a bit.
 
 ## How?
 
