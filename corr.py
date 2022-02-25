@@ -34,13 +34,17 @@ def play(user, password):
         print('Logging In...')
         response = login(s, user, password)
 
-        print('Loading Level Select...')
         if 'Choose Your Next Level' not in response.text:
+            if 'Login failed' in response.text:
+                print('Login failed')
+                return
+
             raise ValueError(f'Something went wrong during login...\n\nRaw HTML:\n{response.content}')
 
+        print('Loading Level Select...')
         print(select_level(s))
         # if selecting tutorial level, make sure to skip tutorial!
-        # look for an a tag with 
+        # look for an a tag with
 
 if __name__ == '__main__':
     if (len(sys.argv) != 3):
